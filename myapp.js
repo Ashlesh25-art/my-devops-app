@@ -1,7 +1,7 @@
 const http = require('http');
 
 const server = http.createServer((req, res) => {
-    res.end("Hello from EC2 🚀");
+    rres.end("Hello DevOps 🚀 Updated");
 });
 
 server.listen(3000, () => {
